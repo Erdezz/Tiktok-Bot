@@ -3,7 +3,7 @@ import os
 import json
 
 # Récupération des variables cachées dans GitHub Secrets
-WEBHOOK_URL = os.getenv("DISCORD_WEBHOOK")
+WEBHOOK_URL = os.getenv("https://discord.com/api/webhooks/1482699572857016320/Wgm7ufX6cqlxiuXdbbG58yIaSKDB-0BVhnxBS5ZHdSRim0lcd19aSyFzPOATBSwv5l_Y")
 HASHTAGS = ["hacco", "hacoo", "haccolinks"]
 DB_FILE = "seen_videos.json"
 
